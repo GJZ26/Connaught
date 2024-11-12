@@ -1,0 +1,32 @@
+div.simple-text {
+    max-width: 1100px;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+
+div.simple-text>h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--de);
+    margin-bottom: 20px;
+}
+
+div.simple-text>p {
+    font-size: 16px;
+    color: var(--sd);
+    line-height: 22px;
+}
+
+div.simple-text>p>a {
+    font-size: 16px;
+    color: var(--accent);
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: none;
+    font-weight: normal;
+}
+
+div.simple-text>p>a:hover {
+    color: var(--sec);
+    transition: color 200ms;
+}

@@ -1,0 +1,18 @@
+div.embark {
+    background-color: var(--de);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+div.embark>h2 {
+    color: var(--wh);
+    font-size: 45px;
+    max-width: 950px;
+    margin: 0 auto 20px;
+}
+
+div.embark>p {
+    color: var(--caca);
+    max-width: 950px;
+    margin: 0 auto 48px;
+}

@@ -1,0 +1,48 @@
+a {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--wh);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a.active {
+    color: var(--sec);
+    transition: color 200ms;
+}
+
+nav {
+    background-color: var(--de);
+    color: var(--wh);
+    display: flex;
+    padding: 12px 0;
+    gap: 12px;
+    align-items: center;
+}
+
+nav>div.buttons {
+    display: flex;
+    gap: 40px;
+}
+
+nav>img {
+    margin: 0px 200px 0px 160px;
+}
+
+@media screen and (max-width:860px) {
+    nav{
+        flex-direction: column;
+    }
+    nav>img {
+        margin: 10px auto;
+    }
+    nav>div.buttons {
+        padding: 0px 10px;
+        text-align: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 40px;
+        justify-content: center;
+    }
+}

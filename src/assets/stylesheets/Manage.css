@@ -1,0 +1,18 @@
+div.manage{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+div.manage > h2{
+    font-size: 45px;
+    color: var(--de);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+div.manage > p{
+    font-size: 15px;
+    color: var(--sd);
+    margin-bottom: 48px;
+}

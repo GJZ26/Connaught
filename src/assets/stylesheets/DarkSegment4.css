@@ -1,0 +1,22 @@
+div.dark-segment-4{
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--de);
+    color: var(--wh);
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+div.dark-segment-4 > p{
+    padding: 0 25%;
+    color: var(--caca);
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+div.dark-segment-4 > h2{
+    font-size: 45px;
+    color: var(--wh);
+    margin-bottom: 20px;
+}

@@ -1,0 +1,16 @@
+div.post-land{
+    max-width: 80vw;
+    margin: 100px auto 100px;
+}
+
+div.post-land>h1 {
+    font-size: 32px;
+    color: var(--de);
+    margin-bottom: 20px;
+}
+
+div.post-land>p {
+    font-size: 16px;
+    color: var(--sd);
+    margin-bottom: 48px;
+}

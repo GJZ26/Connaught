@@ -1,0 +1,150 @@
+div.about-jn {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+div.about-jn>div.left>div.text {
+    max-width: 580px;
+}
+
+div.about-jn>div.left>div.text>h1 {
+    font-size: 45px;
+    color: var(--de);
+    margin-bottom: 20px;
+}
+
+div.about-jn>div.left>div.text>p {
+    font-size: 16px;
+    color: var(--sd);
+    margin-bottom: 48px;
+    line-height: 1.5;
+}
+
+div.about-jn>div.left>div.badge {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 12px;
+    row-gap: 5px;
+    margin-bottom: 40px;
+    max-width: 580px;
+}
+
+div.about-jn>div.left>div.badge>span {
+    flex: 1;
+    min-width: 40%;
+    margin: 5px;
+    font-size: 16px;
+    color: var(--sd);
+}
+
+div.about-jn>div.left>div.badge>span::before {
+    content: "\f058";
+    font-size: 14px;
+    color: var(--accent);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+div.about-jn>div.left>div.pic-mision-container {
+    display: flex;
+    align-items: center;
+    max-width: 580px;
+}
+
+div.about-jn>div.left>div.pic-mision-container>img {
+    width: 225px;
+    height: 235px;
+    object-fit: cover;
+    object-position: 79% 0%;
+    border-radius: 5px;
+}
+
+div.about-jn>div.left>div.pic-mision-container>div.mision-vision {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+div.about-jn>div.left>div.pic-mision-container>div.mision-vision>div.segment>div.detail>h2 {
+    font-size: 20px;
+    color: var(--de);
+}
+
+div.about-jn>div.left>div.pic-mision-container>div.mision-vision>div.segment>div.detail>p {
+    font-size: 16px;
+    color: var(--sd);
+    line-height: 1.5;
+}
+
+div.about-jn>div.left>div.pic-mision-container>div.mision-vision>div.segment {
+    display: flex;
+    align-items: center;
+}
+
+div.about-jn>div.left>div.pic-mision-container>div.mision-vision>div.segment>span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent);
+    color: var(--wh);
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    font-family: 'jkiticon';
+    font-size: 35px;
+    aspect-ratio: 1/1;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+div.about-jn>div.left>div.pic-mision-container>div.mision-vision>div.segment>span.dark {
+    background-color: var(--de);
+}
+
+div.about-jn>div.right>img {
+    width: 540px;
+    height: 670px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    div.about-jn {
+        flex-direction: column;
+    }
+
+    div.about-jn>div.right>img {
+        width: 90vw;
+        height: 200px;
+        border-radius: 5px;
+        object-position: 0% 25%;
+        object-fit: cover;
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    div.about-jn>div.left>div.pic-mision-container {
+        flex-direction: column;
+    }
+
+    div.about-jn>div.left>div.pic-mision-container>img {
+        width: 90vw;
+        margin-bottom: 35px;
+    }
+
+    div.about-jn>div.left>div.badge {
+        row-gap: 20px;
+    }
+
+    div.about-jn>div.left>div.pic-mision-container>div.mision-vision>div.segment>span {
+        font-size: 30px;
+        min-width: 60px;
+        min-height: 60px;
+    }
+}

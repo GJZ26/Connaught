@@ -1,0 +1,39 @@
+div.pro-skill-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+    padding-bottom: 100px;
+}
+
+div.pro-skill-2>h2 {
+    font-size: 45px;
+    color: var(--de);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div.pro-skill-2>p {
+    font-size: 16px;
+    color: var(--sd);
+    margin-bottom: 28px;
+}
+
+a.calltoaction {
+    color: var(--accent);
+    font-size: 15px;
+    text-decoration: underline;
+    text-transform: none;
+}
+
+a.calltoaction:hover {
+    color: var(--sd);
+    transition: color 200ms;
+}
+
+div.skills-card-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    row-gap: 20px;
+}

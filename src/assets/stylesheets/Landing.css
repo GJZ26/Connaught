@@ -1,0 +1,126 @@
+div.landing {
+    margin-top: 76px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    background-repeat: no-repeat;
+}
+
+div.landing>.left-side {
+    color: var(--dc);
+    margin-left: 15vw;
+}
+
+
+div.landing>.left-side>h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+div.landing>.left-side>p {
+    color: var(--sd);
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 0px 10px;
+}
+
+div.landing>.left-side,
+div.landing>.right-side {
+    width: 35vw;
+}
+
+button.main-btn {
+    position: relative;
+    background-color: var(--de);
+    padding: 20px 30px;
+    color: var(--wh);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-radius: 3px 3px 3px 3px;
+    z-index: 9;
+}
+
+button:hover, button:active {
+    cursor: pointer;
+    background-color: var(--accent);
+    transition: background-color 200ms;
+}
+
+div.man-container {
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    background-color: var(--accent);
+    height: 600px;
+    align-items: flex-end;
+    width: 530px;
+    justify-content: center;
+}
+
+img.abs {
+    position: absolute;
+    display: block;
+    box-shadow: #667d6b4d 2px 2px 6px;
+}
+
+.card1 {
+    transform: translate(-253px, -120px);
+    height: 93px;
+}
+
+.card2 {
+    transform: translate(237px, -334px);
+    height: 103px;
+}
+
+img.manHolding {
+    width: 450px;
+    height: fit-content;
+}
+
+@media screen and (max-width: 1279px) {
+    div.landing {
+        text-align: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    div.landing>.left-side {
+        margin-left: 0;
+        width: 100vw;
+    }
+
+    img.abs {
+        position: absolute;
+    }
+
+    div.man-container {
+        margin-top: 50px;
+    }
+
+    div.man-container {
+        margin-top: 100px;
+        height: 439px;
+        width: 100vw;
+    }
+
+    img.manHolding {
+        max-height: 590px;
+        width: fit-content
+    }
+
+    .card1 {
+        transform: translate(-109px, -146px);
+        height: 65px;
+    }
+
+    .card2 {
+        transform: translate(119px, -216px);
+        height: 54px;
+    }
+}

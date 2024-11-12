@@ -1,0 +1,110 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 70px 50px;
+    row-gap: 40px;
+}
+
+footer>div.up-section,
+footer>div.down-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer>div.up-section {
+    justify-content: space-around;
+    column-gap: 25px;
+}
+
+footer>div.down-section {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 120px;
+}
+
+footer>div.up-section>section>h4 {
+    text-transform: uppercase;
+    color: var(--de);
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+footer>div.up-section>section>p,
+footer>div.up-section>section>a {
+    color: var(--sd);
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: normal;
+    text-transform: none;
+}
+
+footer>div.up-section>section>a:hover {
+    color: black;
+    transition: color 200ms;
+}
+
+footer>div.up-section>section>p>span {
+    color: var(--accent);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 15px;
+}
+
+div.links-container {
+    display: flex;
+    column-gap: 12px;
+}
+
+div.bubble-btn {
+    cursor: pointer;
+    color: var(--accent);
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    font-size: 16px;
+    width: 40px;
+    aspect-ratio: 1/1;
+    border: 1px solid var(--caca);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.bubble-btn:hover {
+    background-color: var(--accent);
+    color: var(--wh);
+    transition: all 200ms;
+}
+
+footer>div.down-section>section>img.logo {
+    height: 100px;
+}
+
+footer>div.down-section>section {
+    font-size: 14px;
+    color: var(--sd);
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+        background-size: cover;
+        padding: 70px 28px 50px;
+        row-gap: 40px;
+    }
+
+
+    footer>div.down-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+}

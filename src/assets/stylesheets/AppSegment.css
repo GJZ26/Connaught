@@ -1,0 +1,50 @@
+div.app-segment {
+    background-color: var(--wh);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 100px;
+    padding: 100px 0;
+    flex-wrap: wrap;
+}
+
+
+div.app-segment>div.image>img {
+    width: 484px;
+}
+
+div.app-segment>div.info {
+    max-width: 530px;
+    margin-bottom: 100px;
+    padding: 0px 20px;
+}
+
+div.app-segment>div.info>h2 {
+    font-size: 45px;
+    color: var(--de);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+div.app-segment>div.info>p {
+    font-size: 16px;
+    color: var(--sd);
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+div.app-segment>div.info>div.appsButtons {
+    display: flex;
+    column-gap: 15px;
+}
+
+div.app-segment>div.info>div.appsButtons>a>img {
+    height: 45px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.app-segment>div.image>img {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+}

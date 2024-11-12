@@ -1,0 +1,39 @@
+div.entry-view{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+div.entry-view > span.hashtags{
+    color: var(--sd);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+div.entry-view > h4{
+    color: var(--de);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+div.entry-view > p{
+    color: var(--sd);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+div.entry-view > a{
+    text-transform: uppercase;
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+div.entry-view > a:hover{
+    color: black;
+    transition: color 200ms;
+}

@@ -1,0 +1,22 @@
+div.plus-card{
+    text-align: center;
+    background-color: #FDFDFD1A;
+    padding: 25px 0px 20px 0px;
+    border: 1px solid #FFFFFF47;
+    width: 280px;
+}
+div.plus-card > h4{
+    font-size: 45px;
+}
+
+div.plus-card > h4::after{
+    content: "+";
+    font-size: 24px;
+    color: var(--accent);
+    margin-left: 5px;
+}
+
+div.plus-card > span{
+    font-size: 16px;
+    color: var(--caca);
+}

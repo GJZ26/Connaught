@@ -1,0 +1,111 @@
+div.pro-skill {
+    background-color: #F6FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 92px;
+    padding: 95px 20px;
+}
+
+button.big-btn.inverted{
+    background-color: var(--accent);
+}
+
+button.big-btn.inverted:hover{
+    background-color: var(--sec);
+    transition: background-color 200ms;
+}
+
+div.skills-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+    margin-bottom: 48px;
+}
+
+div.pro-skill>div.left>h3 {
+    font-size: 45px;
+    color: var(--de);
+    margin-bottom: 20px;
+}
+
+div.pro-skill>div.left>p {
+    font-size: 16px;
+    color: var(--sd);
+    max-width: 590px;
+    margin-bottom: 48px;
+}
+
+button.big-btn {
+    background-color: var(--de);
+    padding: 20px 30px;
+    color: var(--wh);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+button.big-btn:hover {
+    background-color:ce;
+    transition: background-color 200ms;
+}
+
+div.man2-container {
+    width: 520px;
+    height: 496px;
+    background-color:ce;
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-end;
+}
+
+div.man2-container>img.manhold {
+    width: 442px;
+    height: fit-content;
+}
+
+div.man2-container>img.card3 {
+    translate: -82px -78px;
+    width: 337px;
+}
+
+div.man2-container>img.card4 {
+    translate: 331px -256px;
+    width: 228px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.pro-skill {
+        flex-direction: column-reverse;
+    }
+
+    div.man2-container {
+        width: 100vw;
+        height: 319px;
+        background-color:ce;
+        border-radius: 3px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    div.man2-container>img.manhold {
+        width: fit-content;
+        height: 412px;
+    }
+
+    div.man2-container>img.card3 {
+        translate: -82px -78px;
+        width: 194px;
+    }
+
+    div.man2-container>img.card4 {
+        translate: 93px -208px;
+        width: 136px;
+    }
+    div.pro-skill>div.right{
+        margin-bottom: 40px;
+    }
+}

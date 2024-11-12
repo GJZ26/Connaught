@@ -1,0 +1,21 @@
+div.guidance-resources {
+    padding: 100px 20px;
+}
+
+div.guidance-resources>h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--de);
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+div.guidance-resources>div.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}

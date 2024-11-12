@@ -1,0 +1,37 @@
+div.skill-card{
+    background-color: var(--wh);
+    border: 1px solid #D3D3D3;
+    padding: 20px;
+    max-width: 100%;
+}
+
+div.skill-card > h4{
+    font-size: 24px;
+    color: var(--de);
+}
+div.skill-card > p{
+    font-family: 15px;
+    color: var(--sd);
+    margin-bottom: 26px;
+}
+
+div.skill-card > ul{
+    font-size: 15px;
+    color: var(--sd);
+    margin: 0 0 1.5em 3em;
+}
+
+div.skill-card > ul > li{
+    margin: 0 0 10px 0;
+}
+
+div.skill-card > a {
+    font-family: 'Montserrat' sans-serif;
+    cursor: pointer;
+    color: var(--accent);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: 2em;
+}

@@ -1,0 +1,40 @@
+div.feature>div.char {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 65px;
+    aspect-ratio: 1/1;
+    font-size: 30px;
+    color: var(--sec);
+}
+
+div.char.dark {
+    background-color: black;
+    border: 1px solid var(--accent);
+}
+
+div.char.light {
+    border: 1px solid var(--de);
+}
+
+div.feature {
+    display: flex;
+    align-items: center;
+}
+
+div.feature>div.content>h4 {
+    font-size: 24px;
+    color: var(--de);
+}
+
+div.feature>div.content{
+    margin-left: 25px;
+}
+
+div.feature>div.content>p {
+    max-width: 440px;
+    color: var(--sd);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}

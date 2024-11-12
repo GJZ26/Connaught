@@ -1,0 +1,130 @@
+div.find-stock {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 100px 0 150px;
+}
+
+div.find-stock>div.left>img {
+    width: 545px;
+    height: 681 px;
+    border-radius: 5px;
+}
+
+div.find-stock>div.left>div.quotes {
+    max-width: 290px;
+    padding: 40px 40px 20px 40px;
+    background-color: var(--de);
+    color: var(--wh);
+    border-radius: 5px;
+}
+
+div.find-stock>div.left>div.quotes>span.content {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-style: italic;
+    display: block;
+}
+
+div.find-stock>div.left>div.quotes>span.content::after {
+    content: "\f97e";
+    font-family: 'jkiticon';
+    font-style: normal;
+    color: #FFFFFF0D;
+    font-size: 100px;
+    position: absolute;
+    translate: 69%;
+}
+
+div.find-stock>div.left>div.quotes>span.author {
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+div.find-stock>div.right>h3 {
+    font-size: 32px;
+    max-width: 530px;
+    color: var(--de);
+    margin-bottom: 20px;
+}
+
+div.find-stock>div.right>p {
+    font-size: 16px;
+    max-width: 530px;
+    color: var(--sd);
+    margin-bottom: 48px;
+}
+
+div.features-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+div.quotes.static {
+    position: absolute;
+    translate: -51px -176px;
+}
+
+@media screen and (max-width: 1254px) {
+    div.quotes.static {
+        position: absolute;
+        translate: 5px -224px;
+    }
+}
+
+@media screen and (max-width: 1126px) {
+    div.find-stock>div.left>img {
+        width: 100vw;
+        height: 365px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 5px;
+    }
+
+    div.find-stock>div.right {
+        margin-top: 30px;
+        padding: 12px;
+    }
+
+    div.find-stock>div.left>div.quotes {
+        max-width: 290px;
+        padding: 22px 40px 18px 27px;
+        background-color: var(--de);
+        color: var(--wh);
+        border-radius: 5px;
+    }
+
+    div.quotes.static {
+        position: absolute;
+        translate: 7px -115px;
+    }
+
+    div.find-stock>div.left>div.quotes>span.content {
+        font-size: 14px;
+        margin-bottom: 18px;
+        font-style: italic;
+        display: block;
+    }
+
+    div.find-stock>div.left>div.quotes>span.author {
+        font-size: 17px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    div.find-stock>div.left>div.quotes>span.content::after {
+        content: "\f97e";
+        font-family: 'jkiticon';
+        font-style: normal;
+        color: #FFFFFF0D;
+        font-size: 69px;
+        position: absolute;
+        translate: 69%;
+    }
+}

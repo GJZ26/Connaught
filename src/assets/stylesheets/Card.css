@@ -1,0 +1,16 @@
+div.card-info{
+    background-color: var(--de);
+    color: var(--wh);
+    border-left: 4px var(--accent) solid;
+    padding: 20px 0 38px 20px;
+    margin-top: 20px;
+}
+
+div.card-info > h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+div.card-info > span{
+    font-size: 16px;
+}
